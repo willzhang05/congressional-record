@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import pandas as pd
 import json
 from datetime import datetime
@@ -14,7 +15,8 @@ schema = {
     'date': []
 }
 
-months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+months = ['January', 'February', 'March', 'April', 'May', 'June',
+          'July', 'August', 'September', 'October', 'November', 'December']
 
 month_map = {month: num + 1 for num, month in enumerate(months)}
 
